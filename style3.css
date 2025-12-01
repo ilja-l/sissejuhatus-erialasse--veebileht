@@ -17,23 +17,6 @@ body {
   overflow: hidden;
 }
 
-body {
-  font-family: "Atkinson Hyperlegible", sans-serif;
-  color: #ffffff;
-
-  background: url(images/bg2.png) center/cover no-repeat;
-  background-color: #000000;
-
-  position: relative;
-  overflow: hidden;
-}
-
-body.styles,
-body.gallery {
-  background: url("images/bg2.png") center/cover no-repeat;
-  background-color: #000000;
-}
-
 .header {
   position: absolute;
   top: 0;
