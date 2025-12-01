@@ -70,7 +70,8 @@ body.gallery {
 
 .style-item img {
     opacity: 1;
-    border: 2px solid white;
+    border: 3px solid #fff;
+    border-radius: 10px;
 }
 
 .style-item h2 {
