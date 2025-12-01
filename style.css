@@ -93,44 +93,18 @@ body {
   margin-bottom: 50px;
 }
 
-.cta-btn {
-  font-size: 20px;
-  font-weight: 400;
-  color: #000;
-  background: rgba(255, 255, 255, 0.8);
-  border: none;
-  padding: 14px 28px;
-  border-radius: 0;
-  cursor: pointer;
-  margin-bottom: -120px;
-  transition: transform 0.08s ease, opacity 0.2s ease;
-}
-
-.cta-btn:hover { opacity: 0.9; }
-.cta-btn:active { transform: translateY(1px); }
-
-.quick-links {
+.sub-btn {
   display: flex;
-  gap: 68px;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  margin-top: 200px;
+  gap 25px;
 }
 
-.quick-btn {
-  font-size: 25px;
-  font-weight: 400;
-  color: #fff;
-  background: rgba(255, 255, 255, 0.6);
-  border: none;
-  padding: 18px 46px;
-  min-width: 360px;
-  text-align: center;
-  cursor: pointer;
-  border-radius: 0;
-  transition: opacity 0.2s ease, transform 0.08s ease;
+.sub-btn {
+  padding: 18px 50px;
+  background: rgba(255,255,255,0.3)
+  border-radius: 6px;
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255,255,255,0.4)
 }
-
-.quick-btn:hover { opacity: 0.85; }
-.quick-btn:active { transform: translateY(1px); }
