@@ -70,16 +70,13 @@ body {
   display: block;
 }
 
-.task-box, .task-box h2, .task-box p, .answers, .task-btn {
-  color: #000; /* must tekst */
-}
-
 .task-box {
   background: rgba(255, 255, 255, 0.5);
   padding: 28px 32px;
   min-height: 420px;
   width: 560px;
   position: relative;
+  color: #000;
 }
 
 .task-title {
