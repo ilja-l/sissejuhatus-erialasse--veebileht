@@ -16,6 +16,11 @@ body {
     background-color: #000000;
     overflow-x: hidden;
 }
+body.styles,
+body.gallery {
+  background: url("images/bg2.png") center/cover no-repeat;
+  background-color: #000000;
+}
 
 .header {
     position: absolute;
