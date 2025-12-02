@@ -12,14 +12,11 @@ html, body {
 }
 
 body {
-    background: url("images/bg2.png") center/cover no-repeat;
-    background-color: #000000;
-    overflow-x: hidden;
-}
-body.styles,
-body.gallery {
-  background: url("images/bg2.png") center/cover no-repeat;
-  background-color: #000000;
+    background-image: url("images/bg2.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
 }
 
 .header {
